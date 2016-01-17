@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>http://localhost:8000/</loc>
+  <lastmod>2016-01-17T14:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/2016/</loc>
+  <lastmod>2016-01-17T14:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/about/</loc>
+  <lastmod>2016-01-17T14:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/archive.html</loc>
+  <lastmod>2016-01-17T14:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/categories/</loc>
+  <lastmod>2016-01-17T14:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/galleries/</loc>
+  <lastmod>2016-01-17T14:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/listings/</loc>
+  <lastmod>2016-01-17T14:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/initial-post/</loc>
+  <lastmod>2016-01-17T14:14:00Z</lastmod>
+ </url>
+</urlset>
