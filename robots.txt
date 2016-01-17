@@ -1,4 +1,4 @@
-Sitemap: http://localhost:8000/sitemapindex.xml
+Sitemap: http://gpetrousov.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: localhost:8000
+Host: gpetrousov.github.io

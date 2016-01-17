@@ -6,35 +6,35 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://localhost:8000/</loc>
+  <loc>http://gpetrousov.github.io/</loc>
+  <lastmod>2016-01-17T14:46:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://gpetrousov.github.io/2016/</loc>
   <lastmod>2016-01-17T14:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/2016/</loc>
+  <loc>http://gpetrousov.github.io/about/</loc>
   <lastmod>2016-01-17T14:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/about/</loc>
+  <loc>http://gpetrousov.github.io/archive.html</loc>
+  <lastmod>2016-01-17T14:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://gpetrousov.github.io/categories/</loc>
   <lastmod>2016-01-17T14:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/archive.html</loc>
+  <loc>http://gpetrousov.github.io/galleries/</loc>
   <lastmod>2016-01-17T14:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/categories/</loc>
+  <loc>http://gpetrousov.github.io/listings/</loc>
   <lastmod>2016-01-17T14:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://localhost:8000/galleries/</loc>
-  <lastmod>2016-01-17T14:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://localhost:8000/listings/</loc>
-  <lastmod>2016-01-17T14:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://localhost:8000/posts/initial-post/</loc>
+  <loc>http://gpetrousov.github.io/posts/initial-post/</loc>
   <lastmod>2016-01-17T14:14:00Z</lastmod>
  </url>
 </urlset>

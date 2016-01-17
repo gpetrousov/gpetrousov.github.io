@@ -6,15 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://localhost:8000/galleries/rss.xml</loc>
-  <lastmod>2016-01-17T14:14:00Z</lastmod>
+  <loc>http://gpetrousov.github.io/galleries/rss.xml</loc>
+  <lastmod>2016-01-17T14:51:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/rss.xml</loc>
-  <lastmod>2016-01-17T14:14:00Z</lastmod>
+  <loc>http://gpetrousov.github.io/rss.xml</loc>
+  <lastmod>2016-01-17T14:51:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://localhost:8000/sitemap.xml</loc>
-  <lastmod>2016-01-17T14:14:00Z</lastmod>
+  <loc>http://gpetrousov.github.io/sitemap.xml</loc>
+  <lastmod>2016-01-17T14:51:00Z</lastmod>
  </sitemap>
 </sitemapindex>
