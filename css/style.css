@@ -38,6 +38,16 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.ioannis-image {
+  vertical-align: middle;
+  border-style: none;
+  float: left;
+  max-width: 17%;
+  border-radius: 50%;
+  margin-right: 30px;
+  min-width: 7rem;
+}
+
 .contact {
   margin-bottom: 60px;
 }
@@ -51,4 +61,15 @@ a:hover {
   margin-bottom: 0;
   bottom: 0;
   font-size: 11px;
+}
+
+.about-title {
+  margin-top: 30px;
+}
+
+.about-content {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
