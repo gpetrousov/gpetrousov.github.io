@@ -1,0 +1,75 @@
+body {
+  color: white;
+  background-color: #222831;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lilita One', cursive;
+  font-size: 5.625rem;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #888888;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.top-container {
+  margin-bottom: 100px;
+}
+
+.nav-link {
+  margin: auto 20px auto 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.terminal-image {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.ioannis-image {
+  vertical-align: middle;
+  border-style: none;
+  float: left;
+  max-width: 17%;
+  border-radius: 50%;
+  margin-right: 30px;
+  min-width: 7rem;
+}
+
+.contact {
+  margin-bottom: 60px;
+}
+
+.fa {
+  font-size: 24px;
+  margin: auto 10px;
+}
+
+.footer .copyright {
+  margin-bottom: 0;
+  bottom: 0;
+  font-size: 11px;
+}
+
+.about-title {
+  margin-top: 30px;
+}
+
+.about-content {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
