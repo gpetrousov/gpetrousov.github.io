@@ -77,8 +77,10 @@ a:hover {
   color: grey;
   width:1%;
   white-space:nowrap;
+  padding-right: 30px
 }
 
 .blog-post-column {
   text-align: left;
 }
+
