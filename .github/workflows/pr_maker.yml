@@ -29,8 +29,8 @@ jobs:
       - name: Create Pull Request into master
         uses: peter-evans/create-pull-request@v3
         with:
-          branch: ${{ steps.extract_branch.outputs.branch }}
-          base: master
+          branch: master
+          base: ${{ steps.extract_branch.outputs.branch }}
           commit-message: Update blog list
           title: Update blog list
           assignees: gpetrousov
