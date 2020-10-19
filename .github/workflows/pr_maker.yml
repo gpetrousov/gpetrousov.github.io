@@ -20,7 +20,17 @@ jobs:
       - name: Checkout repo on new branch
         uses: actions/checkout@v2
         
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+
+        
       - name: Create Pull Request into master
         uses: peter-evans/create-pull-request@v3
         with:
-          base: master
+          branch: ${{ steps.extract_branch.outputs.branch }}
+          base: main
+          commit-message: Update blog list
+          title: Update blog list
+          assignees: @gpetrousov
