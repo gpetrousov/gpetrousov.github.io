@@ -18,16 +18,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - run: pwd
-      - run: ls -la
-      - run: echo $GITHUB_REF
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout repo from new branch
       - uses: actions/checkout@v2
-      - run: git branch
-      - run: find .git/refs/heads
         
-#       # Make changes to pull request here
-#       - name: Create Pull Request
-#         uses: peter-evans/create-pull-request@v3
-#         with:
-#           branch: GITHUB_REF
+      - name: Create Pull Request into master
+        uses: peter-evans/create-pull-request@v3
+        with:
+          base: master
