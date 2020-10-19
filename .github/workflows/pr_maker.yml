@@ -20,25 +20,12 @@ jobs:
       - name: Checkout repo on new branch
         uses: actions/checkout@v2
         
-      - name: Extract branch name
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-        id: extract_branch
-
       - name: Create pull request
         uses: thomaseizinger/create-pull-request@master
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           head: ${{ github.ref }}
           base: master
-          title: "An automatically created PR!"
-        
-        
-#       - name: Create Pull Request into master
-#         uses: peter-evans/create-pull-request@v3
-#         with:
-#           branch: master
-#           base: ${{ steps.extract_branch.outputs.branch }}
-#           commit-message: Update blog list
-#           title: Update blog list
-#           assignees: gpetrousov
+          title: "Updated blog list"
+          body: "Huzzah, Automatically updated blog list with CodeBuild"
+          reviewers: gpetrousov
