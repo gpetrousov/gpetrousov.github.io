@@ -15,11 +15,10 @@ jobs:
   createPullRequest:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout repo from new branch
-      - uses: actions/checkout@v2
+      - name: Checkout repo on new branch
+        uses: actions/checkout@v2
         
       - name: Create Pull Request into master
         uses: peter-evans/create-pull-request@v3
