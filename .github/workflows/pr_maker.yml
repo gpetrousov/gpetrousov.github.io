@@ -33,4 +33,4 @@ jobs:
           base: main
           commit-message: Update blog list
           title: Update blog list
-          assignees: @gpetrousov
+          assignees: gpetrousov
