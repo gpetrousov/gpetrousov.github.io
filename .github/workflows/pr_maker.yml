@@ -30,7 +30,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           branch: ${{ steps.extract_branch.outputs.branch }}
-          base: main
+          base: master
           commit-message: Update blog list
           title: Update blog list
           assignees: gpetrousov
