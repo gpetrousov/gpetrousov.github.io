@@ -34,7 +34,7 @@ a:hover {
   vertical-align: middle;
   border-style: none;
   float: left;
-  max-width: 10px;
+  max-width: 17%;
   border-radius: 50%;
   margin-right: 30px;
   min-width: 7rem;
@@ -67,6 +67,7 @@ a:hover {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+  display: flow-root;
 }
 
 .blog-table {
